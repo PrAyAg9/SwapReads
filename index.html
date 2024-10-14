@@ -75,6 +75,7 @@
   <link rel="stylesheet" href="logout.css">
   <link rel="stylesheet" href="./assets/css/MenuClick.css">
   <link rel="stylesheet" href="https://fontawesome.com/icons/cloudflare?f=brands&s=solid">
+  <link rel="stylesheet" href="./Style/popup.css">
 
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -4002,6 +4003,30 @@ iframe {
  -->
 
 
+<!--       Pop UP HTML starts Here -->
+              <!-- Pop-up for SwapReads Email Signup -->
+      <div id="popup" class="popup">
+          <div class="popup-content">
+              <div class="popup-left">
+                  <img src="popup1.png" alt="Books Swap">
+              </div>
+              <div class="popup-right">
+                  <h1>Welcome to Swap Reads</h1>
+                  <p class="h2">Where Books Find New Homes!</p>
+                  <p>Sign up and get <strong>75 %</strong> discount on your first deal</p>
+                  <form id="emailForm">
+                      <input type="email" id="popup-email" placeholder="Enter your email" required>
+                      <button type="submit" class="signup-btn">Start Swapping</button>
+                  </form>
+                  <a href="#" class="no-thanks close-btn">No thanks, I just want to browse</a>
+                  <p class="terms">By signing up, you agree to our <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a>.</p>
+              </div>
+          </div>
+      </div>
+
+<!--       Pop up HTML ends here -->
+
+
 <!--
         - #PRICING BASED ON THEIR VERSION
       -->
@@ -6550,6 +6575,8 @@ count=0
         });
     });
 </script>
+
+<script src="./script/popup.js"></script>
 
 </body>
 
