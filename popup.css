@@ -1,0 +1,109 @@
+/* Styling for SwapReads Pop-up */
+.popup {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.popup-content {
+  display: flex;
+  background-color: hsl(357, 23%, 81%);
+  border-radius: 10px;
+  max-width: 800px;
+  height: 450px;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.popup-left img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.popup-right {
+  padding: 20px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.popup h1 {
+  font-size: 32px;
+  color: hwb(357 6% 36%);
+  margin-bottom: 10px;
+  font-family: 'Georgia', serif;
+  text-align: center;
+}
+
+.h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #000;
+  font-family: 'Georgia', serif;
+  text-align: center;
+}
+
+p {
+  margin-bottom: 20px;
+  color: #3B3130;
+  font-size: 15px;
+}
+
+input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #6A4F4B;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.signup-btn {
+  width: 100%;
+  padding: 10px 0;
+  background-color: #000000;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.signup-btn:hover {
+  background-color: #5A3E3B;
+}
+
+.no-thanks {
+  display: block;
+  margin-top: 15px;
+  color: #000000;
+  text-decoration: none;
+}
+
+.no-thanks:hover {
+  color: hsl(355, 22%, 29%);
+  transition:0.4s;
+  font-size: 15px;
+}
+
+.terms {
+  margin-top: 15px;
+  font-size: 11px;
+  color: #3B3130;
+}
+
+.terms a {
+  color: #6A4F4B;
+}
